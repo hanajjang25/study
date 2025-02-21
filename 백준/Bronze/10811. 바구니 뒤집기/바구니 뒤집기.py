@@ -6,5 +6,5 @@ for i in range(M):
   s, e = map(int,input().split())
   basket[s-1:e] = basket[s-1:e][::-1]
   
-print(*basket)
+print(" ".join(map(str,basket)))
 
